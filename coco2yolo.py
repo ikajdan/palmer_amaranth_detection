@@ -1,11 +1,11 @@
 import json
 import os
 
-WEEDCOCO_JSON_PATH = ".//dataset/weedcoco.json"
+WEEDCOCO_JSON_PATH = "./dataset/weedcoco.json"
 IMAGES_DIRECTORY = "./dataset/images"
 OUTPUT_DIRECTORY = "./dataset/annotations"
 
-FILE_EXTENSIONS = ["jpg", "png", "jpeg"]
+FILE_EXTENSIONS = ["jpg", "jpeg", "png"]
 
 
 def truncate(n, decimals=0):
